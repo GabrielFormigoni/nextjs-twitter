@@ -23,7 +23,7 @@ const CommentItem: React.FC<CommentItemProps> = ({ data }) => {
 
         return formatDistanceToNowStrict(new Date(data.createdAt));
 
-    }, [data?.createdAt, router])
+    }, [data?.createdAt])
 
     return (
     <div className='border-b-[1px] border-neutral-800 p-5 cursor-pointer hover:bg-neutral-500 transition'>
