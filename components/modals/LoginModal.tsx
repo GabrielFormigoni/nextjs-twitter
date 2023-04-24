@@ -31,7 +31,7 @@ const LoginModal = () => {
         } finally {
             setIsLoading(false)
         }
-      },[LoginModal, email, password])
+      },[loginModal, email, password])
     
       const onToggle = useCallback(() => {
         try {

@@ -35,7 +35,7 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
     else if(href) {
       router.push(href)
     }
-  }, [router, onClick, href, currentUser, auth])
+  }, [router, onClick, href, currentUser, auth, loginModal])
 
   return (
     <div onClick={handleClick} className="flex flex-row items-center">
